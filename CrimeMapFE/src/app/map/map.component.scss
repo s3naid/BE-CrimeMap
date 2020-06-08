@@ -1,0 +1,63 @@
+.map {
+    height: 100%;
+  border-style: ridge ;
+  }
+  .heading-crimemap {
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .main-podnaslov { 
+    font-family: Gill Sans, Verdana;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+   }
+          
+   .main-glavni-naslov {
+    font-family: 'Rye', cursive;
+    color: #444;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 51px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+   }
+.leaflet-control-layers {
+  border-radius: none;
+  box-shadow: none;
+}
+
+.leaflet-control-layers-expanded {
+  width: 100% !important;
+  padding: 0px;
+  background-color: transparent;
+  border: none !important;
+}
+
+#layercontrol {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+}
+
+#layercontrol .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#sidebar {
+  height: 70%;
+  color: black
+}
+.leaflet-sidebar-header {
+  background-color:#585858;
+}
+.leaflet-sidebar-tabs>ul>li.active {
+  background-color:#585858;
+}
